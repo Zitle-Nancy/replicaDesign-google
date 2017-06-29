@@ -1,0 +1,23 @@
+@import 'grillas';
+@import 'fonts';
+.buscar{
+	img{
+		padding-top:15px;
+		width: 30px;
+		height: 30px;
+	}
+}
+.logo{
+	text-align:center;
+	.listas{
+		text-decoration:none; 
+		color:#000;
+		margin-left:15px;
+	}
+}
+.fila-logo{
+	margin-top:60px;
+	img{
+		width:100%;
+	}
+}
