@@ -59,3 +59,11 @@ p{
 .derecha{
 	float:right;
 }
+.enlinea{
+	display:inline-block;
+}
+#nuevo{
+	@extend h3;
+	color:$azul;
+	font-size:20px;
+}
