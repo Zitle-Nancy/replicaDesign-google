@@ -1,0 +1,10 @@
+
+@mixin formato-texto($fuente,$tamano,$color-texto){
+	font-family:$fuente;
+	font-size:$tamano;
+	color:$color-texto;
+}
+@mixin borde-seccion($estilo){
+	border-top:$estilo;
+	border-bottom:$estilo;
+}

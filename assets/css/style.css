@@ -11,10 +11,12 @@
 
 [class*="col-"] {
   min-height: 7px;
+  padding: 12px;
   float: left; }
 
 [class*="colV-"] {
   min-height: 7px;
+  padding: 12px;
   float: left; }
 
 .col-1 {
@@ -94,16 +96,54 @@
   width: 30px;
   height: 30px; }
 
-.logo {
+.padding-izquierda {
+  padding-left: 40px; }
+
+.padding-derecha {
+  padding-right: 40px; }
+
+.texto-centrado {
   text-align: center; }
-  .logo .listas {
-    text-decoration: none;
-    color: #000;
-    margin-left: 15px; }
+
+.listas {
+  text-decoration: none;
+  color: #000;
+  margin-left: 15px; }
 
 .fila-logo {
   margin-top: 60px; }
   .fila-logo img {
     width: 100%; }
+
+h2 {
+  font-family: "Product Sans";
+  font-size: 2.25rem;
+  color: #424242; }
+
+h3 {
+  font-family: "Product Sans";
+  font-size: 1.25rem;
+  color: #424242; }
+
+p {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #414549;
+  line-height: 34px; }
+
+.fechas {
+  font-family: "Roboto Mono";
+  font-size: 0.875rem;
+  color: #5f6368;
+  font-weight: 400;
+  font-style: normal;
+  padding: 24px 0 0;
+  text-transform: capitalize; }
+
+.segunda-seccion {
+  border-top: 4px solid #4285F4;
+  border-bottom: 4px solid #4285F4;
+  border-top: 4px solid #4285F4;
+  border-bottom: 4px solid #4285F4; }
 
 /*# sourceMappingURL=style.css.map */
