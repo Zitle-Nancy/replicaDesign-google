@@ -50,3 +50,13 @@ p{
 	border-top:$borde-seccion-dos;
 	border-bottom:$borde-seccion-dos;
 }
+.texto-segunda-seccion{
+	@include formato-texto($fuente-titulo,$tamano-seccion-dos,$color-seccion-dos);
+    line-height: 32px;
+    margin-top: 9px;
+    letter-spacing: .28px;
+
+}
+.derecha{
+	float:right;
+}

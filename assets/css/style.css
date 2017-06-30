@@ -11,12 +11,10 @@
 
 [class*="col-"] {
   min-height: 7px;
-  padding: 12px;
   float: left; }
 
 [class*="colV-"] {
   min-height: 7px;
-  padding: 12px;
   float: left; }
 
 .col-1 {
@@ -122,7 +120,7 @@ h2 {
 
 h3 {
   font-family: "Product Sans";
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #424242; }
 
 p {
@@ -133,7 +131,7 @@ p {
 
 .fechas {
   font-family: "Roboto Mono";
-  font-size: 0.875rem;
+  font-size: 16px;
   color: #5f6368;
   font-weight: 400;
   font-style: normal;
@@ -145,5 +143,16 @@ p {
   border-bottom: 4px solid #4285F4;
   border-top: 4px solid #4285F4;
   border-bottom: 4px solid #4285F4; }
+
+.texto-segunda-seccion {
+  font-family: "Product Sans";
+  font-size: 24px;
+  color: #212121;
+  line-height: 32px;
+  margin-top: 9px;
+  letter-spacing: .28px; }
+
+.derecha {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */
