@@ -1,0 +1,61 @@
+@import 'grillas';
+@import 'mixin';
+@import 'variables';
+.buscar{
+	img{
+		padding-top:15px;
+		width: 30px;
+		height: 30px;
+	}
+}
+.padding-izquierda{
+	padding-left:40px;
+}
+.padding-derecha{
+	padding-right:40px;
+}
+.texto-centrado{
+	text-align:center;
+}
+.listas{
+	text-decoration:none; 
+	color:#000;
+	margin-left:15px;
+}
+.fila-logo{
+	margin-top:60px;
+	img{
+		width:100%;
+	}
+}
+h2{
+	@include formato-texto($fuente-titulo,$tamano-titulo,$color-fuente);
+}
+h3{
+	@include formato-texto($fuente-titulo,$tamano-subtitulos,$color-fuente);
+}
+p{
+	@include formato-texto($fuente-parrafos,$tamano-parrafos,$color-parrafos);
+    line-height: 34px;
+}
+.fechas{
+	@include formato-texto($fuente-fecha,$tamano-fecha,$color-fecha);
+	font-weight: 400;
+	font-style: normal;
+    padding: 24px 0 0;
+    text-transform: capitalize;
+}
+.segunda-seccion{
+	@include borde-seccion($borde-seccion-dos);
+	border-top:$borde-seccion-dos;
+	border-bottom:$borde-seccion-dos;
+}
+.texto-segunda-seccion{
+	@include formato-texto($fuente-titulo,$tamano-seccion-dos,$color-seccion-dos);
+    line-height: 32px;
+    margin-top: 9px;
+    letter-spacing: .28px;
+}
+.derecha{
+	float:right;
+}
