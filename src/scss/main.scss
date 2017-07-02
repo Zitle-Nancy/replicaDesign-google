@@ -49,6 +49,8 @@ p{
 	@include borde-seccion($borde-seccion-dos);
 	border-top:$borde-seccion-dos;
 	border-bottom:$borde-seccion-dos;
+	padding-bottom:70px;
+	margin-bottom:50px;
 }
 .texto-segunda-seccion{
 	@include formato-texto($fuente-titulo,$tamano-seccion-dos,$color-seccion-dos);
