@@ -62,8 +62,22 @@ p{
 .enlinea{
 	display:inline-block;
 }
-#nuevo{
+.letra-azul{
 	@extend h3;
 	color:$azul;
 	font-size:20px;
+}
+.seccion-correo{
+	background:$seccion-azul;
+	padding-left:15px;
+	margin-bottom:20px;
+	.parrafo-azul{
+		@extend p;
+		color:$azul;
+		margin-top: 0;
+	}
+	#correo{
+		padding-top:15px;
+		width: auto;
+	}
 }

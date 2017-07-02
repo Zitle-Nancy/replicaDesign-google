@@ -118,12 +118,12 @@ h2 {
   font-size: 2.25rem;
   color: #424242; }
 
-h3, #nuevo {
+h3, .letra-azul {
   font-family: "Product Sans";
   font-size: 1.5rem;
   color: #424242; }
 
-p {
+p, .seccion-correo .parrafo-azul {
   font-family: "Roboto";
   font-size: 18px;
   color: #414549;
@@ -158,8 +158,19 @@ p {
 .enlinea {
   display: inline-block; }
 
-#nuevo {
+.letra-azul {
   color: #4285F4;
   font-size: 20px; }
+
+.seccion-correo {
+  background: #F1F3F4;
+  padding-left: 15px;
+  margin-bottom: 20px; }
+  .seccion-correo .parrafo-azul {
+    color: #4285F4;
+    margin-top: 0; }
+  .seccion-correo #correo {
+    padding-top: 15px;
+    width: auto; }
 
 /*# sourceMappingURL=style.css.map */
