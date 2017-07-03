@@ -130,7 +130,7 @@ p, .seccion-correo .parrafo-azul {
   color: #414549;
   line-height: 34px; }
 
-.fechas {
+.fechas, .medium {
   font-family: "Roboto Mono";
   font-size: 16px;
   color: #5f6368;
@@ -139,7 +139,7 @@ p, .seccion-correo .parrafo-azul {
   padding: 24px 0 0;
   text-transform: capitalize; }
 
-.segunda-seccion {
+.segunda-seccion, .segundo-border-top {
   border-top: 4px solid #4285F4;
   border-bottom: 4px solid #4285F4;
   border-top: 4px solid #4285F4;
@@ -176,28 +176,66 @@ p, .seccion-correo .parrafo-azul {
     padding-top: 15px;
     width: auto; }
 
-/*for en las imagenes*/
+/*for en las imagenes de la primera columna*/
 .imagen-4 {
   background-image: url("../img/4.png");
-  width: 100%;
+  width: 90%;
   height: 370px;
   margin-bottom: 10px;
   background-size: 100% 100%; }
 
 .imagen-5 {
   background-image: url("../img/5.png");
-  width: 100%;
+  width: 90%;
   height: 370px;
   margin-bottom: 10px;
   background-size: 100% 100%; }
 
 .imagen-6 {
   background-image: url("../img/6.png");
-  width: 100%;
+  width: 90%;
   height: 370px;
   margin-bottom: 10px;
   background-size: 100% 100%; }
 
+.imagen-7 {
+  background-image: url("../img/7.png");
+  width: 90%;
+  height: 370px;
+  margin-bottom: 10px;
+  background-size: 100% 100%; }
+
+.imagen-8 {
+  background-image: url("../img/8.png");
+  width: 90%;
+  height: 370px;
+  margin-bottom: 10px;
+  background-size: 100% 100%; }
+
+/*uso del if*/
+.icono {
+  background-image: url("../img/medium.png");
+  width: 30px;
+  height: 30px;
+  margin-top: 16px;
+  background-size: 100% 100%; }
+
+.medium {
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 24px; }
+
+/*fin del if*/
 /*fin de las imagenes*/
+.segundo-border-top {
+  border-bottom: 0; }
+
+.icono-dos {
+  background-image: url("../img/21.png");
+  width: 55px;
+  height: 50px;
+  margin-top: 16px;
+  background-size: 100% 100%; }
 
 /*# sourceMappingURL=style.css.map */
