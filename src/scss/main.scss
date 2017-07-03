@@ -24,9 +24,9 @@
 }
 .fila-logo{
 	margin-top:60px;
-	img{
-		width:100%;
-	}
+}
+.w-cien{
+	width:100%;
 }
 h2{
 	@include formato-texto($fuente-titulo,$tamano-titulo,$color-fuente);
@@ -83,3 +83,24 @@ p{
 		width: auto;
 	}
 }
+/*for en las imagenes*/
+@for $i from 4 through 6 {
+	.imagen-#{$i}{
+		// background-image:url("../img/" + $i +".png");
+		background-image:url("../img/#{$i}.png");
+		width:100%;
+		height:370px;
+		// background-image:url('../img/4.png');
+		margin-bottom:10px;
+		background-size:100% 100%;
+	}
+}
+// .imagen-1{
+// 	width:100%;
+// 	height:370px;
+// 	background-image:url('../img/4.png');
+// 	margin-bottom:10px;
+// 	background-size:100% 100%;
+// }
+
+/*fin de las imagenes*/
