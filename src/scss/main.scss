@@ -24,9 +24,9 @@
 }
 .fila-logo{
 	margin-top:60px;
-	img{
-		width:100%;
-	}
+}
+.w-cien{
+	width:100%;
 }
 h2{
 	@include formato-texto($fuente-titulo,$tamano-titulo,$color-fuente);
@@ -49,6 +49,8 @@ p{
 	@include borde-seccion($borde-seccion-dos);
 	border-top:$borde-seccion-dos;
 	border-bottom:$borde-seccion-dos;
+	padding-bottom:70px;
+	margin-bottom:50px;
 }
 .texto-segunda-seccion{
 	@include formato-texto($fuente-titulo,$tamano-seccion-dos,$color-seccion-dos);
@@ -62,8 +64,77 @@ p{
 .enlinea{
 	display:inline-block;
 }
-#nuevo{
+.letra-azul{
 	@extend h3;
 	color:$azul;
 	font-size:20px;
 }
+.seccion-correo{
+	background:$seccion-azul;
+	padding-left:15px;
+	margin-bottom:20px;
+	.parrafo-azul{
+		@extend p;
+		color:$azul;
+		margin-top: 0;
+	}
+	#correo{
+		padding-top:15px;
+		width: auto;
+	}
+}
+/*for en las imagenes de la primera columna*/
+@for $i from 4 through 6 {
+	.imagen-#{$i}{
+		// background-image:url("../img/" + $i +".png");
+		background-image:url("../img/#{$i}.png");
+		width:90%;
+		height:370px;
+		margin-bottom:10px;
+		background-size:100% 100%;
+	}
+}
+@for $j from 7 through 8 {
+	.imagen-#{$j}{
+		background-image:url("../img/#{$j}.png");
+		width:90%;
+		height:370px;
+		margin-bottom:10px;
+		background-size:100% 100%;
+	}
+}
+/*uso del if*/
+.icono {
+	@if $verdadero == true {
+		background-image:url("../img/medium.png");
+		width:30px;
+		height:30px;
+		margin-top:16px;
+		background-size:100% 100%;
+	}
+}
+.medium{
+	@extend .fechas;
+	padding:0;
+	margin:0;
+	margin-top:16px;
+	margin-bottom:24px;
+}
+/*fin del if*/
+/*fin de las imagenes*/
+.segundo-border-top{
+	@extend .segunda-seccion;
+	border-bottom:0;
+
+}
+.icono-dos{
+	@if $verdadero == true {
+		background-image:url("../img/21.png");
+		width:55px;
+		height:50px;
+		margin-top:16px;
+		background-size:100% 100%;
+	}
+}
+
+
